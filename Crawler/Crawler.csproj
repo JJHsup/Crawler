@@ -141,8 +141,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\APlayers1Controller.cs" />
-    <Compile Include="Controllers\APlayersController.cs" />
-    <Compile Include="Controllers\BPlayersController.cs" />
     <Compile Include="Data\CrawlerContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -166,6 +164,10 @@
     <Compile Include="Migrations\202011221337152_Add-K.L.M.N.O.P.Q.R.S.T.cs" />
     <Compile Include="Migrations\202011221337152_Add-K.L.M.N.O.P.Q.R.S.T.designer.cs">
       <DependentUpon>202011221337152_Add-K.L.M.N.O.P.Q.R.S.T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011221422431_Add-all.cs" />
+    <Compile Include="Migrations\202011221422431_Add-all.designer.cs">
+      <DependentUpon>202011221422431_Add-all.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\APlayer.cs" />
@@ -231,16 +233,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\APlayers\Create.cshtml" />
-    <Content Include="Views\APlayers\Delete.cshtml" />
-    <Content Include="Views\APlayers\Details.cshtml" />
-    <Content Include="Views\APlayers\Edit.cshtml" />
-    <Content Include="Views\APlayers\Index.cshtml" />
-    <Content Include="Views\BPlayers\Create.cshtml" />
-    <Content Include="Views\BPlayers\Delete.cshtml" />
-    <Content Include="Views\BPlayers\Details.cshtml" />
-    <Content Include="Views\BPlayers\Edit.cshtml" />
-    <Content Include="Views\BPlayers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -273,6 +265,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011221337152_Add-K.L.M.N.O.P.Q.R.S.T.resx">
       <DependentUpon>202011221337152_Add-K.L.M.N.O.P.Q.R.S.T.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011221422431_Add-all.resx">
+      <DependentUpon>202011221422431_Add-all.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

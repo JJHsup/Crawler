@@ -21,7 +21,7 @@ namespace Crawler.Service
                 SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
                 //for (int i = 0; i < abc.Count(); i++)
                 //{
-                string loadurl = "https://www.basketball-reference.com/players/" + "m" + "/";
+                string loadurl = "https://www.basketball-reference.com/players/" + "y" + "/";
                 HtmlDocument loaddoc = webClient.Load(loadurl);
                 for (int j = 1; j < 9999; j++)
                 {

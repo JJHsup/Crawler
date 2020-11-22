@@ -15,7 +15,7 @@ namespace Crawler.Repository
         {
             if (players.Count() <= 9)
             {
-                MPlayer player = new MPlayer()
+                YPlayer player = new YPlayer()
                 {
                     Name = players[8],
                     G = players[7],
@@ -29,11 +29,11 @@ namespace Crawler.Repository
                     PER = players[1],
                     WS = players[0]
                 };
-                db.MPlayers.Add(player);
+                db.YPlayers.Add(player);
             }
             else
             {
-                MPlayer player = new MPlayer()
+                YPlayer player = new YPlayer()
                 {
                     Name = players[10],
                     G = players[9],
@@ -47,7 +47,7 @@ namespace Crawler.Repository
                     PER = players[1],
                     WS = players[0]
                 };
-                db.MPlayers.Add(player);
+                db.YPlayers.Add(player);
             }
             db.SaveChanges();
         }

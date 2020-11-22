@@ -15,8 +15,8 @@ namespace Crawler
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "BPlayers", action = "Index", id = UrlParameter.Optional }
+                url: "api/{controller}/{action}",
+                defaults: new { controller = "APlayers1", action = "GetPlayers"}
             );
         }
     }
